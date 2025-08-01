@@ -1,0 +1,868 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables CSS personnalisées */
+:root {
+  --primary: 220 90% 56%;
+  --primary-foreground: 220 90% 95%;
+  --secondary: 220 14.3% 95.9%;
+  --secondary-foreground: 220 8.9% 46.1%;
+  --muted: 220 14.3% 95.9%;
+  --muted-foreground: 220 8.9% 46.1%;
+  --accent: 220 14.3% 95.9%;
+  --accent-foreground: 220 8.9% 46.1%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 20% 98%;
+  --border: 220 13% 91%;
+  --input: 220 13% 91%;
+  --ring: 220 90% 56%;
+  --background: 0 0% 100%;
+  --foreground: 220 8.9% 46.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 220 8.9% 46.1%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 220 8.9% 46.1%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --primary: 220 90% 56%;
+  --primary-foreground: 220 90% 95%;
+  --secondary: 220 14.3% 15.9%;
+  --secondary-foreground: 220 8.9% 84.1%;
+  --muted: 220 14.3% 15.9%;
+  --muted-foreground: 220 8.9% 63.9%;
+  --accent: 220 14.3% 15.9%;
+  --accent-foreground: 220 8.9% 84.1%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 20% 98%;
+  --border: 220 13% 19%;
+  --input: 220 13% 19%;
+  --ring: 220 90% 56%;
+  --background: 220 8.9% 6.1%;
+  --foreground: 220 8.9% 84.1%;
+  --card: 220 8.9% 6.1%;
+  --card-foreground: 220 8.9% 84.1%;
+  --popover: 220 8.9% 6.1%;
+  --popover-foreground: 220 8.9% 84.1%;
+}
+
+/* Styles de base */
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  color: hsl(var(--foreground));
+  background: hsl(var(--background));
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+/* Animations personnalisées */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes bounce-subtle {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+/* Classes utilitaires personnalisées */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 2s infinite;
+}
+
+.animate-bounce-subtle {
+  animation: bounce-subtle 1s infinite;
+}
+
+/* Styles pour les composants */
+.card {
+  @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+}
+
+.card-header {
+  @apply flex items-center justify-between mb-4;
+}
+
+.card-title {
+  @apply text-lg font-semibold text-gray-900;
+}
+
+.card-content {
+  @apply space-y-4;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background;
+}
+
+.btn-primary {
+  @apply bg-indigo-600 text-white hover:bg-indigo-700 h-10 py-2 px-4;
+}
+
+.btn-secondary {
+  @apply bg-gray-100 text-gray-900 hover:bg-gray-200 h-10 py-2 px-4;
+}
+
+.btn-outline {
+  @apply border border-gray-300 bg-transparent hover:bg-gray-50 h-10 py-2 px-4;
+}
+
+.btn-ghost {
+  @apply hover:bg-gray-100 hover:text-gray-900 h-10 py-2 px-4;
+}
+
+.btn-sm {
+  @apply h-8 px-3 text-xs;
+}
+
+.btn-lg {
+  @apply h-12 px-8;
+}
+
+/* Styles pour les formulaires */
+.form-input {
+  @apply flex h-10 w-full rounded-md border border-gray-300 bg-white px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+.form-label {
+  @apply text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70;
+}
+
+.form-error {
+  @apply text-sm text-red-600 mt-1;
+}
+
+/* Styles pour les badges */
+.badge {
+  @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+}
+
+.badge-primary {
+  @apply bg-indigo-100 text-indigo-800;
+}
+
+.badge-secondary {
+  @apply bg-gray-100 text-gray-800;
+}
+
+.badge-success {
+  @apply bg-green-100 text-green-800;
+}
+
+.badge-warning {
+  @apply bg-yellow-100 text-yellow-800;
+}
+
+.badge-error {
+  @apply bg-red-100 text-red-800;
+}
+
+/* Styles pour les alertes */
+.alert {
+  @apply relative w-full rounded-lg border p-4;
+}
+
+.alert-info {
+  @apply border-blue-200 bg-blue-50 text-blue-800;
+}
+
+.alert-success {
+  @apply border-green-200 bg-green-50 text-green-800;
+}
+
+.alert-warning {
+  @apply border-yellow-200 bg-yellow-50 text-yellow-800;
+}
+
+.alert-error {
+  @apply border-red-200 bg-red-50 text-red-800;
+}
+
+/* Styles pour les statistiques */
+.stat-card {
+  @apply bg-white overflow-hidden shadow-sm rounded-lg p-5;
+}
+
+.stat-icon {
+  @apply h-6 w-6 flex-shrink-0;
+}
+
+.stat-value {
+  @apply text-2xl font-semibold text-gray-900;
+}
+
+.stat-label {
+  @apply text-sm font-medium text-gray-500 truncate;
+}
+
+.stat-change {
+  @apply text-sm font-semibold;
+}
+
+.stat-change-positive {
+  @apply text-green-600;
+}
+
+.stat-change-negative {
+  @apply text-red-600;
+}
+
+/* Styles pour les tableaux */
+.table {
+  @apply w-full border-collapse;
+}
+
+.table-header {
+  @apply border-b border-gray-200 bg-gray-50;
+}
+
+.table-row {
+  @apply border-b border-gray-200 hover:bg-gray-50;
+}
+
+.table-cell {
+  @apply px-6 py-4 text-sm text-gray-900;
+}
+
+.table-header-cell {
+  @apply px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider;
+}
+
+/* Styles pour les modales */
+.modal-overlay {
+  @apply fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4;
+}
+
+.modal-content {
+  @apply bg-white rounded-lg shadow-xl max-w-md w-full max-h-screen overflow-y-auto;
+}
+
+.modal-header {
+  @apply px-6 py-4 border-b border-gray-200;
+}
+
+.modal-body {
+  @apply px-6 py-4;
+}
+
+.modal-footer {
+  @apply px-6 py-4 border-t border-gray-200 flex justify-end space-x-3;
+}
+
+/* Styles pour les notifications */
+.notification {
+  @apply fixed top-4 right-4 z-50 max-w-sm w-full bg-white shadow-lg rounded-lg pointer-events-auto ring-1 ring-black ring-opacity-5 overflow-hidden;
+}
+
+.notification-content {
+  @apply p-4;
+}
+
+/* Styles pour les barres de progression */
+.progress {
+  @apply relative h-2 w-full overflow-hidden rounded-full bg-gray-200;
+}
+
+.progress-bar {
+  @apply h-full bg-indigo-600 transition-all duration-300 ease-in-out;
+}
+
+/* Styles pour les avatars */
+.avatar {
+  @apply relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full;
+}
+
+.avatar-image {
+  @apply aspect-square h-full w-full object-cover;
+}
+
+.avatar-fallback {
+  @apply flex h-full w-full items-center justify-center rounded-full bg-gray-100 text-gray-600 text-sm font-medium;
+}
+
+/* Styles pour les tooltips */
+.tooltip {
+  @apply absolute z-50 overflow-hidden rounded-md border bg-white px-3 py-1.5 text-sm text-gray-900 shadow-md;
+}
+
+/* Styles pour les dropdowns */
+.dropdown {
+  @apply relative inline-block text-left;
+}
+
+.dropdown-content {
+  @apply absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none;
+}
+
+.dropdown-item {
+  @apply block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900;
+}
+
+/* Styles pour les onglets */
+.tabs {
+  @apply w-full;
+}
+
+.tabs-list {
+  @apply inline-flex h-10 items-center justify-center rounded-md bg-gray-100 p-1 text-gray-500;
+}
+
+.tabs-trigger {
+  @apply inline-flex items-center justify-center whitespace-nowrap rounded-sm px-3 py-1.5 text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-white data-[state=active]:text-gray-900 data-[state=active]:shadow-sm;
+}
+
+.tabs-content {
+  @apply mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2;
+}
+
+/* Styles pour les accordéons */
+.accordion {
+  @apply w-full;
+}
+
+.accordion-item {
+  @apply border-b border-gray-200;
+}
+
+.accordion-trigger {
+  @apply flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline;
+}
+
+.accordion-content {
+  @apply overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down;
+}
+
+/* Styles pour les cartes de navigation */
+.nav-card {
+  @apply relative overflow-hidden rounded-lg bg-white p-6 shadow-sm ring-1 ring-gray-200 hover:shadow-md transition-all duration-200;
+}
+
+.nav-card-icon {
+  @apply h-8 w-8 text-indigo-600 group-hover:text-indigo-700;
+}
+
+.nav-card-title {
+  @apply mt-4 text-lg font-semibold text-gray-900;
+}
+
+.nav-card-description {
+  @apply mt-2 text-sm text-gray-600;
+}
+
+/* Styles pour les métriques en temps réel */
+.live-metric {
+  @apply relative;
+}
+
+.live-indicator {
+  @apply absolute -top-1 -right-1 h-3 w-3 rounded-full bg-green-500 animate-pulse;
+}
+
+/* Styles pour les cartes de statut */
+.status-card {
+  @apply rounded-lg border p-4 transition-colors;
+}
+
+.status-card-active {
+  @apply border-green-200 bg-green-50;
+}
+
+.status-card-inactive {
+  @apply border-gray-200 bg-gray-50;
+}
+
+.status-card-warning {
+  @apply border-yellow-200 bg-yellow-50;
+}
+
+.status-card-error {
+  @apply border-red-200 bg-red-50;
+}
+
+/* Styles pour les graphiques */
+.chart-container {
+  @apply relative h-64 w-full;
+}
+
+.chart-legend {
+  @apply flex flex-wrap gap-4 mt-4;
+}
+
+.chart-legend-item {
+  @apply flex items-center gap-2 text-sm;
+}
+
+.chart-legend-color {
+  @apply h-3 w-3 rounded-full;
+}
+
+/* Styles pour les filtres */
+.filter-bar {
+  @apply flex flex-wrap gap-4 p-4 bg-gray-50 rounded-lg;
+}
+
+.filter-group {
+  @apply flex flex-col gap-2;
+}
+
+.filter-label {
+  @apply text-sm font-medium text-gray-700;
+}
+
+/* Styles pour les listes */
+.list {
+  @apply divide-y divide-gray-200;
+}
+
+.list-item {
+  @apply py-4 flex items-center justify-between;
+}
+
+.list-item-content {
+  @apply flex-1 min-w-0;
+}
+
+.list-item-title {
+  @apply text-sm font-medium text-gray-900 truncate;
+}
+
+.list-item-subtitle {
+  @apply text-sm text-gray-500 truncate;
+}
+
+.list-item-actions {
+  @apply flex items-center gap-2;
+}
+
+/* Styles pour les calendriers */
+.calendar {
+  @apply w-full border border-gray-200 rounded-lg overflow-hidden;
+}
+
+.calendar-header {
+  @apply bg-gray-50 px-4 py-3 border-b border-gray-200;
+}
+
+.calendar-grid {
+  @apply grid grid-cols-7 gap-0;
+}
+
+.calendar-day {
+  @apply aspect-square border-r border-b border-gray-200 p-2 text-sm hover:bg-gray-50;
+}
+
+.calendar-day-today {
+  @apply bg-indigo-50 text-indigo-600 font-semibold;
+}
+
+.calendar-day-selected {
+  @apply bg-indigo-600 text-white;
+}
+
+/* Styles pour les timelines */
+.timeline {
+  @apply relative;
+}
+
+.timeline-item {
+  @apply relative pb-8;
+}
+
+.timeline-item:last-child {
+  @apply pb-0;
+}
+
+.timeline-line {
+  @apply absolute left-4 top-4 -ml-px h-full w-0.5 bg-gray-200;
+}
+
+.timeline-dot {
+  @apply relative flex h-8 w-8 items-center justify-center rounded-full bg-white border-2 border-gray-300;
+}
+
+.timeline-content {
+  @apply ml-16;
+}
+
+.timeline-title {
+  @apply text-sm font-medium text-gray-900;
+}
+
+.timeline-description {
+  @apply text-sm text-gray-600;
+}
+
+.timeline-time {
+  @apply text-xs text-gray-500;
+}
+
+/* Styles pour les cartes de projet */
+.project-card {
+  @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6 hover:shadow-md transition-shadow;
+}
+
+.project-header {
+  @apply flex items-center justify-between mb-4;
+}
+
+.project-title {
+  @apply text-lg font-semibold text-gray-900;
+}
+
+.project-status {
+  @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+}
+
+.project-progress {
+  @apply w-full bg-gray-200 rounded-full h-2 mb-4;
+}
+
+.project-progress-bar {
+  @apply bg-indigo-600 h-2 rounded-full transition-all duration-300;
+}
+
+.project-meta {
+  @apply grid grid-cols-2 gap-4 text-sm text-gray-600;
+}
+
+/* Styles pour les cartes d'employé */
+.employee-card {
+  @apply bg-white rounded-lg shadow-sm border border-gray-200 p-4;
+}
+
+.employee-header {
+  @apply flex items-center space-x-3 mb-3;
+}
+
+.employee-avatar {
+  @apply h-10 w-10 rounded-full bg-indigo-500 flex items-center justify-center text-white text-sm font-medium;
+}
+
+.employee-info {
+  @apply flex-1 min-w-0;
+}
+
+.employee-name {
+  @apply text-sm font-medium text-gray-900;
+}
+
+.employee-role {
+  @apply text-xs text-gray-500;
+}
+
+.employee-status {
+  @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-medium;
+}
+
+.employee-metrics {
+  @apply grid grid-cols-2 gap-2 text-xs text-gray-600;
+}
+
+/* Styles pour les notifications en temps réel */
+.notification-toast {
+  @apply fixed top-4 right-4 z-50 w-full max-w-sm bg-white shadow-lg rounded-lg pointer-events-auto ring-1 ring-black ring-opacity-5 overflow-hidden animate-slide-in;
+}
+
+.notification-toast-content {
+  @apply p-4;
+}
+
+.notification-toast-header {
+  @apply flex items-start;
+}
+
+.notification-toast-body {
+  @apply mt-3 text-sm text-gray-600;
+}
+
+.notification-toast-actions {
+  @apply mt-4 flex space-x-3;
+}
+
+/* Styles pour les métriques de performance */
+.performance-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6;
+}
+
+.performance-card {
+  @apply bg-white rounded-lg shadow-sm border border-gray-200 p-6;
+}
+
+.performance-header {
+  @apply flex items-center justify-between mb-4;
+}
+
+.performance-icon {
+  @apply h-8 w-8 text-indigo-600;
+}
+
+.performance-value {
+  @apply text-3xl font-bold text-gray-900;
+}
+
+.performance-label {
+  @apply text-sm text-gray-600;
+}
+
+.performance-change {
+  @apply text-sm font-medium;
+}
+
+/* Styles pour les cartes de géolocalisation */
+.location-card {
+  @apply bg-white rounded-lg shadow-sm border border-gray-200 p-4;
+}
+
+.location-header {
+  @apply flex items-center justify-between mb-3;
+}
+
+.location-status {
+  @apply flex items-center space-x-2;
+}
+
+.location-indicator {
+  @apply h-3 w-3 rounded-full;
+}
+
+.location-indicator-active {
+  @apply bg-green-500 animate-pulse;
+}
+
+.location-indicator-inactive {
+  @apply bg-gray-300;
+}
+
+.location-info {
+  @apply text-sm text-gray-600;
+}
+
+.location-coordinates {
+  @apply text-xs text-gray-500 font-mono;
+}
+
+/* Styles pour les badges de gamification */
+.gamification-badge {
+  @apply inline-flex items-center space-x-2 px-3 py-2 rounded-full text-sm font-medium;
+}
+
+.gamification-badge-icon {
+  @apply text-lg;
+}
+
+.gamification-badge-bronze {
+  @apply bg-orange-100 text-orange-800;
+}
+
+.gamification-badge-silver {
+  @apply bg-gray-100 text-gray-800;
+}
+
+.gamification-badge-gold {
+  @apply bg-yellow-100 text-yellow-800;
+}
+
+.gamification-badge-platinum {
+  @apply bg-purple-100 text-purple-800;
+}
+
+/* Styles pour les métriques de bien-être */
+.wellness-score {
+  @apply relative inline-flex items-center justify-center w-16 h-16 rounded-full;
+}
+
+.wellness-score-excellent {
+  @apply bg-green-100 text-green-800;
+}
+
+.wellness-score-good {
+  @apply bg-blue-100 text-blue-800;
+}
+
+.wellness-score-average {
+  @apply bg-yellow-100 text-yellow-800;
+}
+
+.wellness-score-poor {
+  @apply bg-red-100 text-red-800;
+}
+
+/* Styles pour les graphiques de carbone */
+.carbon-metric {
+  @apply flex items-center space-x-2 text-sm;
+}
+
+.carbon-saved {
+  @apply text-green-600 font-medium;
+}
+
+.carbon-emitted {
+  @apply text-red-600 font-medium;
+}
+
+.carbon-neutral {
+  @apply text-gray-600 font-medium;
+}
+
+/* Styles pour les animations de chargement */
+.loading-spinner {
+  @apply animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600;
+}
+
+.loading-dots {
+  @apply flex space-x-1;
+}
+
+.loading-dot {
+  @apply h-2 w-2 bg-indigo-600 rounded-full animate-bounce;
+}
+
+.loading-dot:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.loading-dot:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+/* Styles pour les états vides */
+.empty-state {
+  @apply text-center py-12;
+}
+
+.empty-state-icon {
+  @apply mx-auto h-12 w-12 text-gray-400;
+}
+
+.empty-state-title {
+  @apply mt-4 text-lg font-medium text-gray-900;
+}
+
+.empty-state-description {
+  @apply mt-2 text-sm text-gray-600;
+}
+
+.empty-state-action {
+  @apply mt-6;
+}
+
+/* Styles pour les erreurs */
+.error-boundary {
+  @apply min-h-screen flex items-center justify-center bg-gray-50;
+}
+
+.error-content {
+  @apply text-center;
+}
+
+.error-icon {
+  @apply mx-auto h-16 w-16 text-red-500;
+}
+
+.error-title {
+  @apply mt-4 text-xl font-semibold text-gray-900;
+}
+
+.error-description {
+  @apply mt-2 text-gray-600;
+}
+
+.error-actions {
+  @apply mt-6 space-x-3;
+}
+
+/* Styles pour l'accessibilité */
+.sr-only {
+  @apply absolute w-px h-px p-0 -m-px overflow-hidden whitespace-nowrap border-0;
+}
+
+.focus-visible {
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2;
+}
+
+/* Styles pour l'impression */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  
+  .card {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
+}
+
+/* Styles pour les écrans haute résolution */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .high-dpi {
+    /* Styles pour les écrans haute résolution */
+  }
+}
+
+/* Styles pour le mode sombre */
+@media (prefers-color-scheme: dark) {
+  .auto-dark {
+    /* Styles automatiques pour le mode sombre */
+  }
+}
+
+/* Styles pour les animations réduites */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
