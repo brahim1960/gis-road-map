@@ -1,0 +1,98 @@
+no,alamat,km_awal,m_awal,km_akhir,m_akhir,lat,long,posisi,panjang,lebar,tinggi,jenis_kerusakan,tingkat_kerusakan,tanggal
+1,Cerenti (Batas Inhu) - Air Molek,0,811,0,825,-0.5088992695409196,101.91734597510245,Seluruh Jalan,14,5,0.2,Lubang (Potholes),berat,2024-08-12
+2,Cerenti (Batas Inhu) - Air Molek,0,845,0,854,-0.5090411178343788,101.91769092032693,Seluruh Jalan,9.2,5,0.2,Lubang (Potholes),sedang,2024-08-12
+3,Cerenti (Batas Inhu) - Air Molek,0,957,0,976,-0.509077203768465,101.91796157552382,Kiri Jalan,19,3.6,0.2,Lubang (Potholes),berat,2024-08-12
+4,Cerenti (Batas Inhu) - Air Molek,1,569,1,583,-0.5123610406640188,101.92248193104297,Seluruh Jalan,14.4,5.4,0.2,Lubang (Potholes),berat,2024-08-12
+5,Cerenti (Batas Inhu) - Air Molek,2,100,2,125,-0.5157118130802233,101.92641542379836,Seluruh Jalan,25.3,5.4,0.2,Lubang (Potholes),berat,2024-08-12
+6,Cerenti (Batas Inhu) - Air Molek,2,500,2,503,-0.5178555396765031,101.929204736357,Seluruh Jalan,3.16,5,0.2,Retak Buaya,ringan,2024-08-12
+7,Cerenti (Batas Inhu) - Air Molek,2,691,2,700,-0.5192346932669465,101.9302344740261,Kiri Jalan,9.3,3,0.32,Lubang (Potholes),sedang,2024-08-12
+8,Cerenti (Batas Inhu) - Air Molek,2,778,2,784,-0.51969664565017,101.93092191620819,Kiri Jalan,6.9,4.5,0.2,Alur (Rutting),ringan,2024-08-12
+9,Cerenti (Batas Inhu) - Air Molek,2,804,2,829,-0.5197269901321333,101.9309826076708,Seluruh Jalan,25,6,0.2,Lubang (Potholes),berat,2024-08-12
+10,Cerenti (Batas Inhu) - Air Molek,2,829,2,844,-0.5200304349598187,101.93152883080523,Kiri Jalan,15.8,4,0.2,Lubang (Potholes),berat,2024-08-12
+11,Cerenti (Batas Inhu) - Air Molek,3,54,3,66,-0.5204704299107613,101.9327881786546,Seluruh Jalan,12,6,0.2,Lubang (Potholes),berat,2024-08-12
+12,Cerenti (Batas Inhu) - Air Molek,3,494,3,498,-0.5216515579765723,101.93694382233743,Kiri Jalan,4.18,3.1,0.2,Lubang (Potholes),ringan,2024-08-12
+13,Cerenti (Batas Inhu) - Air Molek,3,494,3,504,-0.5216572475651966,101.93695140877024,Seluruh Jalan,10.8,5,0.2,Lubang (Potholes),sedang,2024-08-12
+14,Cerenti (Batas Inhu) - Air Molek,3,889,3,889,-0.5218090947017241,101.94045940472611,Kiri Jalan,10.2,2.5,0.2,Lubang (Potholes),sedang,2024-08-12
+15,Cerenti (Batas Inhu) - Air Molek,4,121,4,126,-0.5217730088372411,101.94235399108423,Kanan Jalan,5.27,3.3,0.2,Lubang (Potholes),ringan,2024-08-12
+16,Cerenti (Batas Inhu) - Air Molek,4,129,4,136,-0.5217820303027512,101.94238105660392,Kiri Jalan,7.82,4.45,0.2,Lubang (Potholes),ringan,2024-08-12
+17,Cerenti (Batas Inhu) - Air Molek,4,134,4,137,-0.5218000732337332,101.94238105660392,Kanan Jalan,3.17,2.9,0.2,Lubang (Potholes),ringan,2024-08-12
+19,Cerenti (Batas Inhu) - Air Molek,4,479,4,485,-0.5208274617933915,101.94570255720215,Kanan Jalan,6.8,3.97,0.2,Lubang (Potholes),ringan,2024-08-12
+18,Cerenti (Batas Inhu) - Air Molek,4,717,4,723,-0.5201889474967671,101.94759993519858,Kiri Jalan,6.18,4,0.2,Lubang (Potholes),ringan,2024-08-12
+20,Cerenti (Batas Inhu) - Air Molek,4,807,4,811,-0.519908265371741,101.94832080792915,Kiri Jalan,4,2.3,0.2,Retak Tepi,ringan,2024-08-12
+21,Cerenti (Batas Inhu) - Air Molek,4,893,4,898,-0.5196322396650377,101.94924433139926,Kanan Jalan,5.2,3.75,0.2,Lubang (Potholes),ringan,2024-08-12
+22,Cerenti (Batas Inhu) - Air Molek,4,931,4,936,-0.519546412507489,101.94960911182989,Kanan Jalan,5.74,3.9,0.2,Lubang (Potholes),ringan,2024-08-12
+23,Cerenti (Batas Inhu) - Air Molek,5,23,5,27,-0.5194870809428396,101.95058039691206,Kiri Jalan,4.5,5,0.2,Lubang (Potholes),sedang,2024-08-12
+24,Cerenti (Batas Inhu) - Air Molek,5,50,5,55,-0.5194872484287245,101.95053835406055,Kanan Jalan,5,4.3,0.2,Lubang (Potholes),ringan,2024-08-12
+25,Cerenti (Batas Inhu) - Air Molek,5,175,5,180,-0.5197300042883997,101.95168769863393,Kanan Jalan,5.42,3.57,0.2,Lubang (Potholes),ringan,2024-08-12
+26,Cerenti (Batas Inhu) - Air Molek,5,965,5,970,-0.5193860911214366,101.95762470121983,Kiri Jalan,5,2.9,0.2,Lubang (Potholes),ringan,2024-08-12
+27,Cerenti (Batas Inhu) - Air Molek,5,970,5,972,-0.5195112621147335,101.95820127011473,Kiri Jalan,2.7,1.6,0.2,Lubang (Potholes),ringan,2024-08-12
+28,Cerenti (Batas Inhu) - Air Molek,5,977,5,980,-0.5195207447656468,101.95822782262961,Seluruh Jalan,3.88,3.8,0.2,Lubang (Potholes),ringan,2024-08-12
+29,Cerenti (Batas Inhu) - Air Molek,5,980,5,987,-0.5195294649729995,101.95829016425078,Kanan Jalan,7,4.2,0.2,Lubang (Potholes),sedang,2024-08-12
+30,Cerenti (Batas Inhu) - Air Molek,6,230,6,257,-0.519960734889487,101.96047884681003,Kiri Jalan,27,5.05,0.2,Lubang (Potholes),berat,2024-08-12
+31,Cerenti (Batas Inhu) - Air Molek,6,450,6,460,-0.5206741730638009,101.96238857963058,Seluruh Jalan,10,7,0.2,Lubang (Potholes),berat,2024-08-12
+32,Cerenti (Batas Inhu) - Air Molek,7,357,7,372,-0.5210711236010408,101.96853083828485,Seluruh Jalan,15.8,6,0.2,Lubang (Potholes),berat,2024-08-12
+33,Air Molek - Simpang Japura,0,15,0,23,-0.3831252514640469,102.24283883636663,Kiri Jalan,8.7,2.8,0.2,Lubang (Potholes),sedang,2024-08-12
+34,Air Molek - Simpang Japura,0,30,0,40,-0.3830286851238848,102.2429400956638,Kiri Jalan,13.4,2.6,0.2,Lubang (Potholes),berat,2024-08-12
+35,Air Molek - Simpang Japura,0,47,0,56,-0.3829197319764084,102.24304122218211,Kiri Jalan,10,2.3,0.2,Lubang (Potholes),berat,2024-08-12
+36,Air Molek - Simpang Japura,0,97,0,101,-0.3825612988476161,102.24332601995364,Kiri Jalan,6,1.8,0.2,Lubang (Potholes),sedang,2024-08-12
+37,Air Molek - Simpang Japura,0,114,0,116,-0.3825356251614189,102.24334699164824,Kiri Jalan,3.2,2.8,0.2,Lubang (Potholes),ringan,2024-08-12
+38,Air Molek - Simpang Japura,0,122,0,122,-0.3824349232285971,102.24342773065558,Seluruh Jalan,3.1,2.3,0,Retak Buaya,ringan,2024-08-12
+39,Air Molek - Simpang Japura,0,127,0,130,-0.382413009240314,102.24344781642036,Kiri Jalan,4.5,2,0.18,Lubang (Potholes),ringan,2024-08-12
+40,Air Molek - Simpang Japura,0,300,0,304,-0.38115795264091795,102.24446965991164,Kiri Jalan,5.5,2.8,0.25,Lubang (Potholes),sedang,2024-08-12
+41,Air Molek - Simpang Japura,0,395,0,397,-0.3806256758266802,102.24486662084536,Kiri Jalan,2.9,2.2,0.25,Lubang (Potholes),ringan,2024-08-12
+42,Air Molek - Simpang Japura,0,418,0,419,-0.3803189400431002,102.24511923236244,Kiri Jalan,3.3,1.8,0.2,Lubang (Potholes),ringan,2024-08-12
+43,Air Molek - Simpang Japura,0,429,0,433,-0.3802932227365115,102.2451444585469,Kiri Jalan,4.6,2.5,0.25,Lubang (Potholes),ringan,2024-08-12
+44,Air Molek - Simpang Japura,0,479,0,482,-0.38022885113912924,102.24519810272788,Kiri Jalan,3.7,2,0.2,Lubang (Potholes),ringan,2024-08-12
+45,Air Molek - Simpang Japura,0,525,0,531,-0.3798784090659618,102.24549466491179,Kiri Jalan,7.5,1.8,0.28,Lubang (Potholes),sedang,2024-08-12
+46,Air Molek - Simpang Japura,0,543,0,548,-0.37957843948706105,102.24568412354961,Kiri Jalan,7,2.4,0.2,Lubang (Potholes),sedang,2024-08-12
+47,Air Molek - Simpang Japura,0,560,0,563,-0.3794453702619152,102.24574953188716,Kiri Jalan,3.1,1.7,0.2,Retak Memanjang,ringan,2024-08-12
+48,Air Molek - Simpang Japura,0,600,0,604,-0.379116080322191,102.2458826040242,Kiri Jalan,4.5,1.8,0.25,Lubang (Potholes),ringan,2024-08-12
+49,Air Molek - Simpang Japura,0,605,0,607,-0.3790799937536732,102.24589162586409,Kanan Jalan,2.1,1.4,0.2,Lubang (Potholes),ringan,2024-08-12
+50,Air Molek - Simpang Japura,0,820,0,826,-0.3771109139683527,102.2463599711912,Kiri Jalan,6.9,1.6,0.2,Lubang (Potholes),sedang,2024-08-12
+51,Air Molek - Simpang Japura,0,850,0,856,-0.37695781158813524,102.24648117987041,Kiri Jalan,15.6,1.8,0.25,Lubang (Potholes),berat,2024-08-12
+52,Air Molek - Simpang Japura,0,870,0,872,-0.37664522755351526,102.24673635603718,Kanan Jalan,2.8,1.1,0.25,Lubang (Potholes),ringan,2024-08-12
+53,Air Molek - Simpang Japura,1,30,1,36,-0.3761774656666899,102.24724498210966,Kiri Jalan,6,2,0.25,Lubang (Potholes),sedang,2024-08-12
+54,Air Molek - Simpang Japura,1,150,1,157,-0.37573977010667253,102.24857236536792,Kiri Jalan,7.7,1.5,0.2,Lubang (Potholes),sedang,2024-08-12
+55,Air Molek - Simpang Japura,1,185,1,187,-0.3756593055676815,102.24880303534613,Kiri Jalan,2.5,1.4,0.2,Lubang (Potholes),ringan,2024-08-12
+56,Air Molek - Simpang Japura,1,195,1,200,-0.37563784835715075,102.24894251021665,Kiri Jalan,5.5,1.3,0.25,Lubang (Potholes),sedang,2024-08-12
+57,Air Molek - Simpang Japura,1,230,1,243,-0.3754912248286239,102.24928380421699,Kiri Jalan,15,2.2,0.25,Lubang (Potholes),berat,2024-08-12
+58,Air Molek - Simpang Japura,1,286,1,288,-0.3753107919093961,102.24959505769341,Kiri Jalan,2.8,1.9,0.2,Lubang (Potholes),ringan,2024-08-12
+59,Air Molek - Simpang Japura,1,336,1,344,-0.37504916415693057,102.24981609276725,Kiri Jalan,9.8,1.8,0.25,Lubang (Potholes),sedang,2024-08-12
+60,Air Molek - Simpang Japura,1,386,1,389,-0.37459357100574114,102.24995142036566,Kiri Jalan,5.5,2.2,0.25,Lubang (Potholes),sedang,2024-08-12
+61,Air Molek - Simpang Japura,1,433,1,437,-0.37416504276227336,102.25007321519716,Kiri Jalan,6.2,2.2,0.25,Lubang (Potholes),sedang,2024-08-12
+62,Air Molek - Simpang Japura,1,449,1,452,-0.3741875968803272,102.250086747957,Kiri Jalan,6.5,2.2,0.25,Lubang (Potholes),sedang,2024-08-12
+63,Air Molek - Simpang Japura,1,462,1,463,-0.37401393016977347,102.25019049911579,Kiri Jalan,2.7,1.7,0.2,Lubang (Potholes),ringan,2024-08-12
+64,Air Molek - Simpang Japura,1,500,1,502,-0.3736440426190349,102.25053107357185,Kiri Jalan,3.4,2.5,0.25,Lubang (Potholes),ringan,2024-08-12
+65,Air Molek - Simpang Japura,1,600,1,603,-0.3730576354752743,102.25121447793606,Kiri Jalan,3.9,2,0.2,Lubang (Potholes),ringan,2024-08-12
+66,Air Molek - Simpang Japura,1,640,1,644,-0.3728905814579562,102.25138912256,Kiri Jalan,4.5,2,0.2,Lubang (Potholes),ringan,2024-08-12
+67,Air Molek - Simpang Japura,2,50,2,51,-0.37098435206195896,102.2541943378876,Kiri Jalan,2,2,0.2,Retak Buaya,ringan,2024-08-12
+68,Air Molek - Simpang Japura,2,128,2,131,-0.370936073293861,102.25429894401636,Kiri Jalan,4.2,2,0.25,Lubang (Potholes),ringan,2024-08-12
+69,Air Molek - Simpang Japura,2,150,2,157,-0.3707992835024121,102.25458057596647,Kiri Jalan,8,2,0.25,Lubang (Potholes),sedang,2024-08-12
+70,Air Molek - Simpang Japura,2,485,2,486,-0.36725465217989683,102.25464914259501,Kiri Jalan,3,2,0.2,Lubang (Potholes),ringan,2024-08-12
+71,Air Molek - Simpang Japura,2,560,2,567,-0.36669706078740527,102.25473638657178,Kiri Jalan,8,2.9,0.2,Lubang (Potholes),sedang,2024-08-12
+72,Air Molek - Simpang Japura,2,600,2,611,-0.3662342978655581,102.25477431873591,Kiri Jalan,10,2.4,0.2,Lubang (Potholes),berat,2024-08-12
+73,Air Molek - Simpang Japura,2,750,2,761,-0.3648460089281904,102.254888115227,Kiri Jalan,12,2,0.2,Lubang (Potholes),berat,2024-08-12
+74,Air Molek - Simpang Japura,2,820,2,825,-0.3643529007942392,102.25500570493583,Kiri Jalan,5.9,1.5,0.2,Lubang (Potholes),sedang,2024-08-12
+75,Air Molek - Simpang Japura,2,850,2,853,-0.36407220845978516,102.25519915897293,Kiri Jalan,4.5,1.8,0.25,Lubang (Potholes),ringan,2024-08-12
+76,Air Molek - Simpang Japura,2,875,2,877,-0.36387875833229294,102.25545709768906,Kiri Jalan,3.9,2,0.2,Retak Buaya,ringan,2024-08-12
+77,Air Molek - Simpang Japura,2,918,2,925,-0.3637801366693512,102.2557074499569,Kiri Jalan,7.6,3.6,0.23,Lubang (Potholes),sedang,2024-08-12
+78,Air Molek - Simpang Japura,2,930,2,939,-0.3637763435339096,102.2556884838799,Kiri Jalan,9.2,2.3,0.25,Lubang (Potholes),sedang,2024-08-12
+79,Air Molek - Simpang Japura,2,939,2,945,-0.36371565329628547,102.25580228037231,Kiri Jalan,8.2,3.6,0.22,Lubang (Potholes),sedang,2024-08-12
+80,Air Molek - Simpang Japura,2,975,2,979,-0.36341599524206725,102.25614746306597,Kiri Jalan,6.9,1.9,0.2,Lubang (Potholes),sedang,2024-08-12
+81,Air Molek - Simpang Japura,3,5,3,8,-0.36328702848147054,102.25624798330091,Kiri Jalan,4,2,0.2,Lubang (Potholes),ringan,2024-08-12
+82,Air Molek - Simpang Japura,3,378,3,382,-0.36318285646290943,102.25861322631124,Kiri Jalan,5.4,1.8,0.2,Lubang (Potholes),sedang,2024-08-12
+83,Air Molek - Simpang Japura,3,502,3,505,-0.36427907388166614,102.25983464199649,Kiri Jalan,3.7,1.8,0.2,Lubang (Potholes),ringan,2024-08-12
+84,Air Molek - Simpang Japura,3,608,3,612,-0.3648518379781072,102.26052500735328,Kiri Jalan,4.8,1.8,0.25,Lubang (Potholes),ringan,2024-08-12
+85,Air Molek - Simpang Japura,3,657,3,678,-0.36518184109859475,102.26088915612898,Seluruh Jalan,21.8,6,0.25,Lubang (Potholes),berat,2024-08-12
+86,Air Molek - Simpang Japura,3,768,3,771,-0.365921503241222,102.26133675565893,Kiri Jalan,3.1,2.1,0.25,Lubang (Potholes),ringan,2024-08-12
+87,Air Molek - Simpang Japura,3,856,3,861,-0.36677495947758176,102.26177676875584,Kiri Jalan,5.5,2.3,0.25,Lubang (Potholes),sedang,2024-08-12
+88,Air Molek - Simpang Japura,3,945,3,948,-0.3674197930248105,102.26230023261469,Kanan Jalan,3,1.5,0.2,Lubang (Potholes),ringan,2024-08-12
+89,Air Molek - Simpang Japura,3,962,3,968,-0.3674728969608398,102.2623647172937,Kiri Jalan,6.2,2.6,0.25,Lubang (Potholes),sedang,2024-08-12
+90,Air Molek - Simpang Japura,3,965,3,969,-0.3675222077583105,102.26239126980863,Kanan Jalan,4,2,0.2,Lubang (Potholes),ringan,2024-08-12
+91,Air Molek - Simpang Japura,3,970,3,973,-0.3676208293524123,102.26248610021895,Kiri Jalan,3.6,3,0.2,Lubang (Potholes),ringan,2024-08-12
+92,Air Molek - Simpang Japura,4,148,4,151,-0.3689180825464357,102.26289576758712,Kiri Jalan,3.8,3.2,0.25,Lubang (Potholes),ringan,2024-08-12
+93,Air Molek - Simpang Japura,4,185,4,193,-0.3693505002293731,102.26301335729595,Kiri Jalan,8.3,4.1,0.25,Lubang (Potholes),sedang,2024-08-12
+94,Air Molek - Simpang Japura,4,265,4,268,-0.36989671202989705,102.26329405530466,Kiri Jalan,3.5,2,0.2,Lubang (Potholes),ringan,2024-08-12
+95,Air Molek - Simpang Japura,4,335,4,344,-0.3705339590824077,102.26367717015567,Seluruh Jalan,9.75,6,0.2,Lubang (Potholes),berat,2024-08-12
+96,Air Molek - Simpang Japura,11,100,11,104,-0.35046869836339545,102.29974215417717,Kiri Jalan,4.5,2.8,0.25,Lubang (Potholes),ringan,2024-08-12
+97,Air Molek - Simpang Japura,14,300,14,306,-0.34949107966681475,102.32651452409551,Kiri Jalan,6,1.6,0.25,Lubang (Potholes),sedang,2024-08-12
